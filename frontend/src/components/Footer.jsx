@@ -7,16 +7,16 @@ const Footer = () => {
         <footer className='max-padd-container mb-4'>
             <div className='max-padd-container bg-primary rounded-tr-3xl rounded-tl-3xl pt-12 xl:pt-20 pb-8'>
                 <h3 className='h3'>Explore real estate opportunities with us?</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ducimus iste?</p>
+                <p>Give us the chance to help you find the best property for you in your area!</p>
                 <hr className='my-8 bg-slate-900/30 h-[2px]' />
                 {/* container */}
                 <div className='flex justify-between flex-wrap gap-2
                 '>
                     <div className='max-w-sm'>
                         <Link to={'/'} className='flex items-center gap-x-2'>
-                            <span className='font-[900] text-[24px]'>Casa<span className='font-[600] medium-20'>Central</span></span>
+                            <span className='font-[900] text-[24px]'>Estate<span className='font-[600] medium-20'>Vista</span></span>
                         </Link>
-                        <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla recusandae voluptatibus excepturi nostrum cum delectus repellat?</p>
+                        <p className='py-4'>Subscribe to our newsletter to get the latest update !</p>
                         <div className='flexBetween pl-6 h-[3.3rem] bg-white w-full max-w-[366px] rounded-full ring-1 ring-slate-500/5'>
                             <input type="email" placeholder='Enter your email' className='bg-transparent border-none outline-none' />
                             <button className='btn-secondary rounded-full relative right-[0.33rem]'>Subscribe</button>
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* copyrights */}
-            <p className='text-white bg-tertiary medium-14 py-2 px-8 rounded-b-3xl flexBetween '><span>2024 CasaCentral</span><span>All rights reserved</span></p>
+            <p className='text-white bg-tertiary medium-14 py-2 px-8 rounded-b-3xl flexBetween '><span>2024 EstateVista</span><span>All rights reserved</span></p>
         </footer>
     )
 }

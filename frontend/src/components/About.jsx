@@ -45,17 +45,17 @@ const About = () => {
                     <img src={aboutImg} alt="" className='rounded-3xl rounded-tr-[155px] w-[488px]' />
                     <div className='bg-white absolute bottom-16 left-16 max-w-xs p-4 rounded-lg flexCenter flex-col'>
                         <span className='relative bottom-8 p-3 shadow-md bg-white h-12 w-12 flex items-center rounded-full'><RiDoubleQuotesL className='text-2xl'/></span>
-                        <p className='text-center relative bottom-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, maiores illum!</p>
+                        <p className='text-center relative bottom-3'>With extra ordinary property at the best price!</p>
                     </div>
                 </div>
                 {/* Right side */}
                 <div className='flex-1 flex justify-center flex-col'>
                     <span className='medium-18'>Unveiling Our Journey</span>
                     <h2 className='h2'>Our Commitment Crafting Extraordinary Real Estate Experiences</h2>
-                    <p className='py-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis dolore expedita delectus in a eligendi explicabo laborum eveniet? Ratione modi et earum assumenda est vitae neque laborum fugiat unde expedita perferendis amet rem illum quis facere voluptatum culpa repudiandae natus provident porro, nihil fuga.</p>
+                    <p className='py-5'>At EstateVista  , we are dedicated to transforming the way you experience real estate. Our mission is to deliver unmatched service, guiding you through each step to find the perfect property. With a deep understanding of your unique needs and aspirations, we create personalized journeys to connect you with homes that inspire and fulfill. Every detail matters—because we believe finding a home is more than a transaction; it's the beginning of a new chapter.</p>
                     {/* Statistics Container */}
                     <div className="flex flex-wrap gap-4">
-                        {statistics.map((statistic, index) => (
+                        {statistics.map((statistic, index) => ( 
                             <div key={index} className="bg-primary p-4 rounded-lg">
                                 <div className='flex items-center gap-1'>
                                     <CountUp start={isVisible ? 0 : null} end={statistic.value} duration={10} delay={3}>
